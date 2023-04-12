@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+     <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="SolidWorks.Interop.sldworks">
+  <HintPath>C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\sldworks.tlb</HintPath>
+</Reference>
+<Reference Include="SolidWorks.Interop.swconst">
+  <HintPath>C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\swconst.tlb</HintPath>
+</Reference>
+
+  </ItemGroup>
+</Project>
